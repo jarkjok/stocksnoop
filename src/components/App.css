@@ -1,0 +1,161 @@
+#navigation {
+  background-color: #bbfabb;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+#navigation a {   
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+#navigation a:link {
+  color: black;
+}
+
+#navigation a:visited {
+  color: navy;
+}
+
+#navigation a:hover {
+  color: white;
+  background-color: #bbeabb;
+}
+
+#navigation a:active {
+  color: grey;
+  background-color: #bbeabb;
+}
+
+#stockperformance {
+  padding: 15px;
+}
+
+.attribution {
+  padding-left: 12px;
+  font-style: italic;
+  font-size: small;
+}
+
+.timeseriesgraph {
+  width: 1053px;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  padding: 12px;
+}
+
+.rv-xy-plot-loading {
+  background: url("../img/loading.gif");
+}
+
+.rv-xy-plot {
+  background-color: #fff;
+}
+
+.rv-discrete-color-legend {
+  background-color: #fff;
+  padding: 12px;
+  position: absolute;
+  top: 70px;
+  left: 940px;
+  height: 600px;
+  width: 140px;
+}
+
+.graphselect, .periodselect {
+  width: 1053px;
+  margin-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+}
+
+.button-not-selected {
+  margin-left: 12px;
+  background-color: #7CdF80;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-selected {
+  margin-left: 12px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#stockselect {
+  padding: 15px;
+}
+
+.selectform {
+  width: 90%;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.selectform input, .selectform select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.stocklist {
+  margin-top: 15px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.stocklist table {
+  width: 100%;
+}
+
+.stocklist table, th, td {
+  text-align: left;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 1px solid #bbb;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.stocklist th {
+  width: 6em;
+}
+
+.pnotification {
+  margin: 12px;
+  font-style: italic;
+}
+
+.perror {
+  margin: 12px;
+  font-style: italic;
+  color: red;
+}
+
+.removetext {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  width: 6em;
+}
